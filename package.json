@@ -1,0 +1,22 @@
+{
+  "name": "truffledemo",
+  "version": "1.0.0",
+  "description": "truffle",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newyear6565/truffleDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newyear6565/truffleDemo/issues"
+  },
+  "homepage": "https://github.com/newyear6565/truffleDemo#readme"
+}
