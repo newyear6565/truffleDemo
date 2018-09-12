@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/newyear6565/truffleDemo/issues"
   },
-  "homepage": "https://github.com/newyear6565/truffleDemo#readme"
+  "homepage": "https://github.com/newyear6565/truffleDemo#readme",
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "ethereumjs-wallet": "^0.6.2",
+    "truffle-wallet-provider": "0.0.5"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.6"
+  }
 }
