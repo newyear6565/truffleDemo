@@ -53,7 +53,6 @@ module.exports = {
         network_id: 2
     },
     mainnet: {
-        gas: 75000000000,
         gasPrice: 4500000000,
         provider: mainNetProvider,
         network_id: "*" // Match any network id
