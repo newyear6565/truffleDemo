@@ -24,7 +24,7 @@ var mainNetPrivateKey = new Buffer("5a9be97c1d41cfb86455b11971d670d72fefe3be45af
 var mainNetWallet = Wallet.fromPrivateKey(mainNetPrivateKey);
 var mainNetProvider = new WalletProvider(mainNetWallet, "https://mainnet.infura.io/");
 
-var ropstenPrivateKey = "";//new Buffer(process.env["ROPSTEN_PRIVATE_KEY"], "hex")
+var ropstenPrivateKey = new Buffer("5a9be97c1d41cfb86455b11971d670d72fefe3be45af4307aeeb026537539671", "hex");//new Buffer(process.env["ROPSTEN_PRIVATE_KEY"], "hex")
 var ropstenWallet = Wallet.fromPrivateKey(ropstenPrivateKey);
 var ropstenProvider = new WalletProvider(ropstenWallet, "https://ropsten.infura.io/");
 
